@@ -17,3 +17,6 @@ On the other hand, as consensus systems, the BFT system was proposed by Leslie L
 Composition:
 
 While 3C, a ciphertext decrypted based on the consensus of multiple nodes, can theoretically be created in various ways, a composition that combines Turing-complete functionality, sufficient decentralization, and realistic decryption time is considered most promising with the combination of PoS blockchain and SWE.
+
+When using Ethereum, the most secure blockchain under Proof of Stake (PoS), for implementing 3C, there are two methods. The first is a hard fork that allows Beacon chain validators, when assigned as Committee members, to also sign messages from the EVM. The second method involves using re-staking to enable validators capable of BLS signatures to sign new messages. What is common in both cases is that validators sign with their BLS keys not on unpredictable values like block headers, but on values that can be known in advance by the encryptor and are secure.
+
