@@ -30,6 +30,6 @@ When using Ethereum, the most secure blockchain under Proof of Stake (PoS), for 
 
 5. Each individual encrypts BLS(key_i, m) with ElGamal encryption to the decryptor d and adds it to the accumulated encrypted BLS signatures. Σ ElGamal(d, BLS(key_i,m)).
 
-6. The decryptor d obtains p by inputting the BLS aggregate signature from the decryption result of Σ ElGamal(d, BLS(key_i,m)) into the SWE ciphertext SWE(vs,m,p).
+6. The decryptor obtains p by inputting the BLS aggregate signature from the decryption result of Σ ElGamal(d, BLS(key_i,m)) into the SWE ciphertext SWE(vs,m,p).
 
 
